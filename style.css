@@ -1,0 +1,95 @@
+/*Navbar Styles*/
+.navbar{
+   box-shadow: 10px 10px 10px #333;
+   position: sticky;
+}
+
+navbar p{
+    margin-left: 1rem;
+    font-size: 1.2rem;
+}
+
+navbar a{
+    text-decoration: none;
+    color: black;
+}
+
+navbar p a span{
+    background: #a5c422;
+    color: white;
+    border-radius: 4px;
+}
+
+navbar ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin-left: 26rem;
+}
+
+navbar ul li a{
+    padding: 1.5rem;
+    margin-top: 2rem;
+}
+
+navbar .nav{
+    display: flex;
+    flex-direction: row;
+    top: 0;
+    position: sticky;
+    background: white;
+    box-shadow: 1px 0 10px #333;
+}
+
+navbar ul li a span{
+    background: #a5c422;
+    color: white;
+    padding: 0.7rem;
+    border-radius: 5px;
+}
+
+/*Doctors Styles*/
+
+#doctors h1{
+    font-size: 2rem;
+    padding-left: 2.5rem;
+}
+
+#doctors .container{
+    display: flex;
+    flex-direction: row;
+}
+
+#doctors .container .forimg{
+    margin: 1rem;
+}
+
+#doctors .container .img1{
+    margin-left: 2.5rem;
+}
+
+#doctors .container .forimg img{
+    height: 34rem;
+}
+
+#doctors .container .forimg{
+    background: #f4f4f4;
+    border-radius: 10px;
+}
+
+#doctors .container .forimg p{
+    color: gray;
+}
+
+#doctors .container .forimg span{
+    font-size: 1.5rem;
+    color: black;
+}
+
+.fix{
+    border-top: 1px solid white;
+}
+
+.line{
+    padding: 2rem;
+}
